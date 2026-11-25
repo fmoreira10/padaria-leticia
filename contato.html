@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Fale com a Padaria Letícia. Entre em contato conosco e envie sua mensagem.">
+
+    <meta name="theme-color" content="#b5121b">
+
+    <title>Fale conosco | Padaria Letícia</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         BARRA SUPERIOR
+    ========================== -->
+    <div class="topbar">
+        <div class="container topbar-content">
+
+            <span>
+                <i class="fa-solid fa-location-dot"></i>
+                Belo Horizonte - MG
+            </span>
+
+            <span>
+                <i class="fa-regular fa-clock"></i>
+                Venha nos visitar!
+            </span>
+
+        </div>
+    </div>
+
+
+    <!-- =========================
+         CABEÇALHO
+    ========================== -->
+    <header class="site-header">
+
+        <div class="container header">
+
+            <!-- Menu esquerdo -->
+            <nav class="nav nav-left">
+
+                <a href="index.html">
+                    Início
+                </a>
+
+                <a href="historia.html">
+                    Nossa história
+                </a>
+
+                <a href="produtos.html">
+                    Ver produtos
+                </a>
+
+            </nav>
+
+
+            <!-- LOGO CENTRALIZADO -->
+            <a class="logo" href="index.html">
+                <img
+                    src="images/logo-padaria.png"
+                    alt="Padaria Letícia"
+                >
+            </a>
+
+
+            <!-- Menu direito -->
+            <nav class="nav nav-right">
+
+                <a href="index.html#galeria">
+                    Galeria
+                </a>
+
+                <a href="index.html#localizacao">
+                    Visite-nos
+                </a>
+
+                <a href="contato.html" class="active">
+                    Fale conosco
+                </a>
+
+            </nav>
+
+        
+
+            <!-- Menu mobile -->
+            <button
+                class="menu"
+                aria-label="Abrir menu"
+                type="button"
+            >
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <!-- =========================
+         CONTEÚDO PRINCIPAL
+    ========================== -->
+    <main>
+
+        <!-- TÍTULO DA PÁGINA -->
+        <section class="page-hero">
+
+            <div class="container">
+
+                <div class="eyebrow">
+                    Padaria Letícia
+                </div>
+
+                <h1>
+                    Fale conosco
+                </h1>
+
+                <p>
+                    Entre em contato com a nossa equipe.
+                    Será um prazer falar com você.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             FORMULÁRIO
+        ========================== -->
+        <section class="section contact-section">
+
+            <div class="container">
+
+                <div class="contact-grid">
+
+                    <!-- TEXTO -->
+                    <div class="contact-info">
+
+                        <div class="title">
+
+                            <span>
+                                Entre em contato
+                            </span>
+
+                            <h2>
+                                Estamos à disposição
+                            </h2>
+
+                            <p>
+                                Tem alguma dúvida, sugestão ou quer falar
+                                com a Padaria Letícia? Envie sua mensagem.
+                                Para um contato mais rápido, você também
+                                pode falar conosco pelo WhatsApp.
+                            </p>
+
+                        </div>
+
+
+                        <!-- WhatsApp -->
+                        <a
+                            class="contact-card"
+                            href="https://wa.me/553134583666"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+
+                            <div class="contact-icon">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </div>
+
+                            <div>
+                                <strong>
+                                    WhatsApp
+                                </strong>
+
+                                <span>
+                                    Fale conosco pelo WhatsApp
+                                </span>
+                            </div>
+
+                        </a>
+
+
+                        <!-- Instagram -->
+                        <a
+                            class="contact-card"
+                            href="https://www.instagram.com/padaria_leticia_?utm_source=ig_web_button_share_sheet&stkn=ZDNlZDc0MzIxNw=="
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+
+                            <div class="contact-icon">
+                                <i class="fa-brands fa-instagram"></i>
+                            </div>
+
+                            <div>
+                                <strong>
+                                    Instagram
+                                </strong>
+
+                                <span>
+                                    @padaria_leticia
+                                </span>
+                            </div>
+
+                        </a>
+
+
+                        <!-- Localização -->
+                        <a
+                            class="contact-card"
+                            href="index.html#localizacao"
+                        >
+
+                            <div class="contact-icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+
+                            <div>
+                                <strong>
+                                    Nossa localização
+                                </strong>
+
+                                <span>
+                                    Avenida Elias Antônio Issa, 1048
+                                </span>
+                            </div>
+
+                        </a>
+
+                    </div>
+
+
+                    <!-- FORMULÁRIO -->
+                    <div class="contact-form-box">
+
+                        <form
+                            class="form"
+                            onsubmit="event.preventDefault(); alert('Mensagem preparada! Em breve podemos conectar este formulário a um serviço de envio de e-mail.');"
+                        >
+
+                            <div class="form-grid">
+
+                                <div class="field">
+
+                                    <label for="nome">
+                                        Nome
+                                    </label>
+
+                                    <input
+                                        id="nome"
+                                        type="text"
+                                        placeholder="Seu nome"
+                                        required
+                                    >
+
+                                </div>
+
+
+                                <div class="field">
+
+                                    <label for="email">
+                                        E-mail
+                                    </label>
+
+                                    <input
+                                        id="email"
+                                        type="email"
+                                        placeholder="seuemail@email.com"
+                                        required
+                                    >
+
+                                </div>
+
+
+                                <div class="field full">
+
+                                    <label for="assunto">
+                                        Assunto
+                                    </label>
+
+                                    <input
+                                        id="assunto"
+                                        type="text"
+                                        placeholder="Como podemos ajudar?"
+                                        required
+                                    >
+
+                                </div>
+
+
+                                <div class="field full">
+
+                                    <label for="mensagem">
+                                        Mensagem
+                                    </label>
+
+                                    <textarea
+                                        id="mensagem"
+                                        placeholder="Digite sua mensagem..."
+                                        required
+                                    ></textarea>
+
+                                </div>
+
+
+                                <div class="field full">
+
+                                    <button
+                                        class="btn btn-red form-button"
+                                        type="submit"
+                                    >
+
+                                        <i class="fa-solid fa-paper-plane"></i>
+
+                                        Enviar mensagem
+
+                                    </button>
+
+                                </div>
+
+                            </div>
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         RODAPÉ
+    ========================== -->
+    <footer class="footer">
+
+        <div class="container">
+
+            <div class="footer-grid">
+
+                <!-- Coluna 1 -->
+                <div>
+
+                    <img
+                        class="footer-logo"
+                        src="images/logo-padaria.png"
+                        alt="Padaria Letícia"
+                    >
+
+                    <p>
+                        Mais de 30 anos fazendo parte
+                        da rotina de BH.
+                    </p>
+
+                    <div class="social">
+
+                        <a
+                            href="https://www.instagram.com/padaria_leticia_?utm_source=ig_web_button_share_sheet&stkn=ZDNlZDc0MzIxNw=="
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="Instagram"
+                        >
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Coluna 2 -->
+                <div>
+
+                    <h3>
+                        Navegue
+                    </h3>
+
+                    <ul>
+
+                        <li>
+                            <a href="index.html">
+                                Início
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="historia.html">
+                                Nossa história
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="produtos.html">
+                                Ver produtos
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="contato.html">
+                                Fale conosco
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="trabalhe-conosco.html">
+                                Trabalhe conosco
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <!-- Coluna 3 -->
+                <div>
+
+                    <h3>
+                        Encontre-nos
+                    </h3>
+
+                    <p>
+                        Avenida Elias Antônio Issa, 1048
+                    </p>
+
+                    <p>
+                        Loja 05 - Letícia
+                    </p>
+
+                    <p>
+                        Belo Horizonte - MG
+                    </p>
+
+                    <p>
+                        Instagram: @padaria_leticia
+                    </p>
+
+                </div>
+
+
+                <!-- Coluna 4 -->
+                <div>
+
+                    <h3>
+                        Venha nos visitar
+                    </h3>
+
+                    <p>
+                        Esperamos por você!
+                    </p>
+
+                    <a
+                        class="btn btn-red"
+                        style="margin-top: 10px;"
+                        href="index.html#localizacao"
+                    >
+
+                        <i class="fa-solid fa-location-dot"></i>
+
+                        Ver localização
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- Copyright -->
+            <div class="bottom">
+
+                © 2026 Padaria Letícia.
+                Todos os direitos reservados.
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- =========================
+         WHATSAPP FLUTUANTE
+    ========================== -->
+    <a
+        class="whatsapp"
+        href="https://wa.me/553134583666"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="WhatsApp"
+    >
+
+        <i class="fa-brands fa-whatsapp"></i>
+
+    </a>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
